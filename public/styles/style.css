@@ -1,0 +1,252 @@
+:root {
+  --vinotinto: #810808;
+  --gris: #7A7A7A;
+  --grisOscuro: #7A7A7A;
+  --negro: #000000;
+  --blanco: #ffffff;
+  --marronClaro: #deb887;
+  --azul: #99cee7;
+}
+
+body {
+
+  background-color: var(--blanco);
+  display: flex;
+  flex-direction: column;
+  padding: none;
+  gap: 30px;
+}
+html {
+  scroll-behavior: smooth; /* Habilita el desplazamiento suave */
+}
+.nav-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 605px;
+  padding: none;
+
+
+}
+
+.content-manual {
+  width: 100%;
+  height: 400px;
+  background: var(--blanco);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin: 20;
+}
+.content-manual-logo{
+  width: 800px;
+  height: 400px;
+  background: var(--marronClaro);
+  box-shadow: 5px 5px 10px rgba(0, 0.4, 0, 0.4);
+border-radius: 50%;
+align-items: center;
+display: flex;
+justify-content: center;
+margin-left: 50px;
+gap: 8px;
+flex-direction: column;
+}
+.contenedor{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 80px;
+margin: 50px;
+
+
+}
+.nav-herader {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  background: var(--vinotinto);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.text{
+  width: 100%;
+  height: 100px;
+  background: var(--blanco);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.text-decoration2{
+  text-align: center;
+  font-size: 60px;
+  color: var(--vinotinto);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--vinotinto);
+  height: 100vh;
+  width: 100%;
+  gap: 20px;
+}
+
+.nav {
+  width: 100%;
+  height: 80px;
+  background-color: var(--vinotinto);
+  display: flex;
+  flex-direction: row;
+
+}
+
+.svg1 {
+  width: 200px;
+  height: 100px;
+}
+
+.logo {
+  text-align: center;
+  color: var(--blanco);
+  font-family: Arial, Helvetica;
+  font-size: 12px;
+}
+
+
+
+
+
+.text-center {
+  text-align: center;
+  font-size: 14px;
+  font-family: Arial, Helvetica;
+  color: var(--blanco);
+}
+
+.content-img {
+  width: 200px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+ h3 {
+  text-align: center;
+  font-size: 35px;
+  color: var(--negro);
+  font-family: Arial, Helvetica;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: start;
+}
+.content-text-center {	
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  width: 100%;
+  height: 500px;
+  padding-right: 50px;
+}
+.content-img2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items:center;
+  width: 400px;
+  height: 200px;
+}
+p{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: justify;
+margin: 30px;}
+.text-decoration {
+  text-align: center;
+  font-size: 60px;
+  color: var(--vinotinto);
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+}
+.content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items:baseline;
+  width: 500px;
+  height: 300px;
+}
+.svg2{
+  height: 300px;
+  width: 300px;
+}
+.svg3{
+  height: 250px;
+  width: 250px;
+}
+.button {
+  background-color: var(--vinotinto);
+  border: none;
+  color: var(--blanco);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+  font-family: Arial, Helvetica;
+}
+.button:hover {
+  background-color: var(--grisOscuro);
+  transition: 0.5s;
+}
+.text-header {
+  text-align: center;
+  color: var(--grisOscuro);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  margin-right: 10%;
+  font-weight: 500;
+}
+
+/**/
+.text-header:hover {
+  color: var(--vinotinto);
+  transition: 0.5s;
+}
+.nav-coment{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  
+}
