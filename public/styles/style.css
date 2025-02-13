@@ -1,6 +1,7 @@
 :root {
   --vinotinto: #810808;
   --gris: #7A7A7A;
+  --grisClaro: #D3D3D3;
   --grisOscuro: #7A7A7A;
   --negro: #000000;
   --blanco: #ffffff;
@@ -8,16 +9,16 @@
   --azul: #99cee7;
 }
 
-body {
+html {
+  scroll-behavior: smooth; /* Habilita el desplazamiento suave */
+}
+  body {
 
   background-color: var(--blanco);
   display: flex;
   flex-direction: column;
   padding: none;
   gap: 30px;
-}
-html {
-  scroll-behavior: smooth; /* Habilita el desplazamiento suave */
 }
 .nav-content {
   display: flex;
@@ -31,9 +32,13 @@ html {
 
 .content-manual {
   width: 100%;
-  height: 400px;
-  background: var(--blanco);
-  display: flex;
+  height: 350px;
+  background-image: linear-gradient(rgb(0 0 0 / 3%), rgba(0, 0, 0, 0.7)), url(/img/manoS.jpg);
+    background-color: rgba(0,0,0,0.4);
+   background-repeat: no-repeat; /* Agrega esta línea */
+  background-size: cover;  display: flex;  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0.4, 0, 0.4);
+    display: flex;
   justify-content: center;
   align-items: center;
   text-align: justify;
@@ -65,7 +70,7 @@ margin: 50px;
   display: flex;
   flex-direction: row;
   width: 100%;
-  background: whitesmoke;
+  background: #217697;
 
 }
 .footer {
@@ -80,8 +85,11 @@ margin: 50px;
 .text{
   width: 100%;
   height: 100px;
-  background: var(--blanco);
-  display: flex;
+  background-image: url("../img/cielo.jpg");
+  background-repeat: no-repeat; /* Agrega esta línea */
+  background-size: cover;  display: flex;
+  box-shadow: 5px 5px 10px rgba(0, 0.4, 0, 0.4);
+
   align-items: center;
   justify-content: center;
 
@@ -89,8 +97,8 @@ margin: 50px;
 .text-decoration2{
   text-align: center;
   font-size: 60px;
-  color: var(--vinotinto);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--blanco);
+  font-family: "Merienda", serif;
   text-decoration: none;
   font-weight: 500;
 
@@ -127,10 +135,6 @@ margin: 50px;
   font-size: 12px;
 }
 
-
-
-
-
 .text-center {
   text-align: center;
   font-size: 14px;
@@ -159,7 +163,7 @@ margin: 50px;
   text-align: center;
   font-size: 35px;
   color: var(--negro);
-  font-family: Arial, Helvetica;
+  font-family: "Merienda", serif;
   text-decoration: none;
   font-weight: 500;
   text-align: start;
@@ -170,8 +174,12 @@ margin: 50px;
   justify-content: center;
   align-items: center;
   gap: 70px;
-background: whitesmoke;
-  height: 500px;
+  background-image: url("../img/cielo.jpg");
+  background-repeat: no-repeat; /* Agrega esta línea */
+  background-size: cover;
+  box-shadow: 5px 5px 10px rgba(0, 0.4, 0, 0.4);
+
+  height: 800px;
   padding-right: 50px;
 }
 .content-img2 {
@@ -183,14 +191,19 @@ background: whitesmoke;
   height: 200px;
 }
 p{
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-text-align: justify;
+  font-family: "Merienda", serif;
+  text-align: justify;
 margin: 30px;}
+
+
+
+
+
 .text-decoration {
   text-align: center;
   font-size: 60px;
   color: var(--vinotinto);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Merienda", serif;
   text-decoration: none;
   font-weight: 500;
 }
@@ -203,8 +216,10 @@ margin: 30px;}
   height: 300px;
 }
 .svg2{
-  height: 300px;
-  width: 300px;
+  height: 600px;
+  width: 600px;
+  margin-top: -200px;
+
 }
 .svg3{
   height: 250px;
